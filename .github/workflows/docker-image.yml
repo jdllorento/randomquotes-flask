@@ -18,5 +18,5 @@ jobs:
       - name: Build the Docker image 
         run: docker build . --file Dockerfile --tag jdllorento/express-randomquotes:latest 
       - name: Docker Push 
-        run: docker push danielgara/express-randomquotes
+        run: docker push jdllorento/express-randomquotes
 
